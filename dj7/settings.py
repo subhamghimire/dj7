@@ -136,3 +136,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
 STATIC_URL = '/static/'
 STATIC_URL = '/media/'
+
+LOGIN_URL = 'regapp/user_login'
